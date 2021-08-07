@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<category id = "Форум">
+		<ownership_token index = "1">
+			<name> Миньйоны </name>
+			<description> Стаями ошиваются на форумах и суют свой нос в любые вопросы и дела, которые их даже не касающиеся. Гонятся за показателями репутации, пытаются помочь всем новичкам, кто задаёт вопросы. Тем не менее, качество ответов часто желает знать лучшего, они либо совсем безполезны, либо приносят только вред. Впрочем, иногда всё-таки попадают в цель, но это скорее исключение, чем правило. </description>
+			<image_filename> fm.png </image_filename>
+			<buying_cost> 3000 </buying_cost>
+			<basic_income> 1000 </basic_income>
+			<upgrade_cost> 300,500,1000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 500,1000,1500 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "2">
+			<name> Камрады </name>
+			<description> Форум для них стал второй семьёй. Здесь они прокрастинируют и обсуждают между собой всяческие вопросы из сферы "а в наше время...", всевозможные планы и проекты, события и решения бытовых проблем. В силу привычки любят изгонять дъяволов, то есть дотошных новичков, которые забывают соблюдать древние традиции и правила. </description>
+			<image_filename> fk.png </image_filename>
+			<buying_cost> 6000 </buying_cost>
+			<basic_income> 2000 </basic_income>
+			<upgrade_cost> 1000,2000,3000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 2000,3000,4500 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "3">
+			<name> Гуру </name>
+			<description> Обладатели тайных знаний, скрытых за семью печатями. Делятся информацией только по защищенным каналам за обратные услуги. Не занимаются саморекламой и скрываются в мрачных дебрях, ожидая, пока сам клиент их не найдёт. Не доверяют никому и ничему, каждый раз применяют новые системы шифрования и подчищают за собой все следы. </description>
+			<image_filename> fg.png </image_filename>
+			<buying_cost> 18000 </buying_cost>
+			<basic_income> 6000 </basic_income>
+			<upgrade_cost> 3000,4500,7000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 4500,7000,10000 </upgrade_income>
+		</ownership_token>
+		
+		<bonus> 5%(10%) вероятность улучшить любую компанию другого типа. </bonus>
+
+		</category>
+
+		<category id = "Самозанятые">
+		<ownership_token index = "4">
+			<name> ИП "Рыбка из пруда" </name>
+			<description> Мыкола и Вася обожают рыбачить на деревенском пруду. В поход обычно берут с собой заправку, поэтому улова можно особо не ждать. Тем не менее, он каким-то чудесным образом появляется и доход эти двое вечно трезвых всё-таки приносят. Даже странно, откуда в деревенском пруду берутся свежие креветки и мидии... </description>
+			<image_filename> srip.png </image_filename>
+			<buying_cost> 6000 </buying_cost>
+			<basic_income> 2000 </basic_income>
+			<upgrade_cost> 500,1000,2000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 1000,1500,3000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "5">
+			<name> ИП "Робокоп" </name>
+			<description> Вынужден разбираться в деталях строения унитазов и особенностях кладбищенских застроек, элитных шмотках и бетонной заливке, электроинструментах и садовых мотыгах. Пишет тошнотворные романы-эпопеи с витиевато запутанными словами и затем ставит печатки в виде никому не понятных картинок. Постоянно имеет дело с плагиатом, поскольку только им и занимается. </description>
+			<image_filename> srk.png </image_filename>
+			<buying_cost> 9000 </buying_cost>
+			<basic_income> 3000 </basic_income>
+			<upgrade_cost> 1500,2000,3000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 2000,3000,4500 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "6">
+			<name> ООО "Др. Шипер" </name>
+			<description> Пытаются заработать на продаже воздуха. Предоставляют услуги посредников между клиентом и поставщиками, принимают заказ, часто вместе с предоплатой, вынуждают клиента ждать хренову тучу времени, культурно отшивая по телефону, а сами тем временем покупают тот же товар дешевле у известных поставщиков и направляют его прямо на адрес клиента. Иногда устраивают целые конгломераты дропшипперов, которые покупают товары друг у друга, что особенно показательно. </description>
+			<image_filename> sds.png </image_filename>
+			<buying_cost> 12000 </buying_cost>
+			<basic_income> 4000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность принести дополнительный доход 20000 за круг. </bonus>
+
+		</category>
+
+		<category id = "Блогеры">
+		<ownership_token index = "7">
+			<name> Обозреватель </name>
+			<description> Заказывает или выпрашивает всякую всячину со всевозможных торговых площадок, делает на неё обзоры, а затем спихивает залежавшийся товар с небольшой наценкой. Иногда пользуется реферальными сервисами для получения дополнительных плюшек. Хранит под столом целый склад картонных коробок и пенопласта. Обставляет помещение диковинными штуками со всех частей мира. Обожает коллекционировать ножи для распаковок. </description>
+			<image_filename> bo.png </image_filename>
+			<buying_cost> 9000 </buying_cost>
+			<basic_income> 3000 </basic_income>
+			<upgrade_cost> 1000,1500,2500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 1500,2500,4000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "8">
+			<name> Мерчендайзер </name>
+			<description> Обожает шоколадки и черные ящики. Суёт шоколадки в черные ящики и рассылает их всем кому не лень. Иногда кладёт внутрь какой-то ненужный мусор, который некуда деть. Будучи в особо щедром настроении, может положить что-то полезное, например лопнувший зелёный шарик. В свободное время рисует всякую чертовщину и заказывает шитье или термопечать на шмотках, чтобы расширить владения своей секты. </description>
+			<image_filename> bm.png </image_filename>
+			<buying_cost> 15000 </buying_cost>
+			<basic_income> 5000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "9">
+			<name> Кукловод </name>
+			<description> Манипулирует сознанием армии поклонников, планирует и проводит спецоперации с их участием, расширяет империю за счёт ведения популярных блогов и стримов, знает, как привлечь новую аудиторию и завоевать её доверие, чем и пользуется для обретения бесконечной власти. Может быть одновременно во многих точках мира, выбирает среди фанатов лиц с внешностью, похожей на его собственную, и пользуется их услугами.</description>
+			<image_filename> bk.png </image_filename>
+			<buying_cost> 24000 </buying_cost>
+			<basic_income> 8000 </basic_income>
+			<upgrade_cost> 4000,6000,9000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 6000,9000,13500 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность избавить каждого игрока от 5000. </bonus>
+
+		</category>
+
+		<category id = "Хакеры">
+		<ownership_token index = "10">
+			<name> Мелкий ддосер </name>
+			<description> Не успел вылезти из пелёнок, а уже понял все прелести работы с консолькой Линукса и взялся за непотребства. Не даёт покоя бизнесу всея Руси. Шантажирует перебоями в работе и требует компенсацию за перемирие. И то, недлительное, поскольку терпения у этого мелкого нет ни капли. </description>
+			<image_filename> hmd.png </image_filename>
+			<buying_cost> 9000 </buying_cost>
+			<basic_income> 3000 </basic_income>
+			<upgrade_cost> 1000,2000,4000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 1500,3000,6000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "11">
+			<name> Зеленый Змей </name>
+			<description> Отъявленный негодяй, применяющий питон не по назначению. Проникает в системы снабжения города, ворует базы данных и толкает дропов на базаре всяким тёмным личностям. Весь город страдает от безумия Зеленого Змея. А он лишь оставляет бекдоры и возвращается снова и снова, чтобы спереть очередную партию компромата. </description>
+			<image_filename> hzz.png </image_filename>
+			<buying_cost> 15000 </buying_cost>
+			<basic_income> 5000 </basic_income>
+			<upgrade_cost> 2000,4000,6000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,6000,9000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "12">
+			<name> Мракорис </name>
+			<description> Бродячий хакер, время от времени нанимающийся для выполнения особо сложных задач. Глушит системы обеспечения крупных городов, подтасовывает данные, устраивает революции и меняет ход выборов. Ходят легенды о его виде, но фактически никто и никто его не встречал. </description>
+			<image_filename> hm.png </image_filename>
+			<buying_cost> 24000 </buying_cost>
+			<basic_income> 8000 </basic_income>
+			<upgrade_cost> 4000,6000,9000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 6000,9000,13500 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность подменить права собственности на случайную чужую компанию. </bonus>
+
+		</category>
+		
+		<category id = "Блокчейн-мафия">
+		<ownership_token index = "13">
+			<name> "Форкающие лошадки" </name>
+			<description> Темные лошадки, которые недавно узнали, что такое гитхаб и с чем его едят. Заняты клонированием репозиториев существующих блокчейн-проектов, меняют название и несколько переменных, занимаются примитивной рекламой и запускают проект. Снимают сливки в первые дни и уходят с поля зрения. Повторяют весь процес с завидной регулярностью. </description>
+			<image_filename> bmfl.png </image_filename>
+			<buying_cost> 12000 </buying_cost>
+			<basic_income> 4000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "14">
+			<name> "Криптосамогонщики" </name>
+			<description> Сеть производителей домашнего элитного самогона и вина, которые продают товар за собственные токены. Обычно нахваливают свои божественные напитки в твитче, после банов сразу же создают новые аккаунты. Впаривают вино на всех форумах, тематических и даже нетематических площадках. Всегда носят с собой вино и не расстаются с ним ни при каких обстоятельствах. </description>
+			<image_filename> bmks.png </image_filename>
+			<buying_cost> 18000 </buying_cost>
+			<basic_income> 6000 </basic_income>
+			<upgrade_cost> 3000,4500,7000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 4500,7000,10000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "15">
+			<name> "Криптоамазонки" </name>
+			<description> Принцессы, познакомившиеся с ипо и ико ради новых способов приворожить ничего не подозревающих зазевавшихся путников. Завлекают в сети качественно продуманной рекламной кампанией. Днём и ночью изучают стопки бумаг и выбирают очередную жертву. Расклеивают все стены жуткими коллекциями компромата. Выбранная жертва может уже не надеяться на спасение, ей уже мало что поможет. </description>
+			<image_filename> bmka.png </image_filename>
+			<buying_cost> 24000 </buying_cost>
+			<basic_income> 8000 </basic_income>
+			<upgrade_cost> 4000,6000,9000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 6000,9000,13500 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 10%(20%) вероятность заставить остальных игроков переместить фигурку нанимателя. </bonus>
+		
+		</category>
+
+		<category id = "Артисты">
+		<ownership_token index = "16">
+			<name> "Вольные художники" </name>
+			<description> Занимаются любимым делом и зарабатывают этим на жизнь. Рисуют непризнанные произведения искусства, снимают фотографии, сочиняют музыку и создают трёхмерные окружения. Иногда продают результаты своих трудов на биржах и напрямую клиентам. Любят свободу, которая даёт им возможность находить новые способы разнообразить творчество. </description>
+			<image_filename> avh.png </image_filename>
+			<buying_cost> 9000 </buying_cost>
+			<basic_income> 3000 </basic_income>
+			<upgrade_cost> 1000,1500,2500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 1500,2500,4000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "17">
+			<name> "Слуги аутсорса" </name>
+			<description> Связываются с заказчиками и выполняют определённые их поручения. Практически полностью заменили искусство ремеслом. Поэтому большинство произведений выполнено по канонам методичек, с едва заметными следами дущи автора. Тем не менее, их работа приносит хороший доход. </description>
+			<image_filename> asa.png </image_filename>
+			<buying_cost> 15000 </buying_cost>
+			<basic_income> 5000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "18">
+			<name> "Папарацци" </name>
+			<description> Хитрые и коварные любители заснять фото и видео о знаменитостях. Преследуют их, ставят скрытые камеры, притворяются знакомыми. Профессионалы в вопросах камуфляжа. Делают всё, чтобы получить заветный компромат, который затем либо сами применяют для шантажа, либо продают нужным людям. </description>
+			<image_filename> ap.png </image_filename>
+			<buying_cost> 21000 </buying_cost>
+			<basic_income> 7000 </basic_income>
+			<upgrade_cost> 4000,6000,9000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 6000,9000,13500 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность получить доход со случайной компании вместо её владельца. </bonus>
+
+		</category>
+
+		<category id = "Коллекционеры">
+		<ownership_token index = "19">
+			<name> "Секта нумизматов" </name>
+			<description> Дотошно обсуждают особенности грани или вон той точечки на тыльной стороне монетки и наперегонки устанавливают свои цены, если хотят выкупить монетку задёшево. Обмениваются горами монет, как будто пытаются собрать их не меньше, чем Скрудж собственной персоной. Нередко посылают неосведомлённых новичков, недалеко правда, в соседнюю ветку, поскольку те часто надокучают обыкновенными монетами, которые не представляют никакой ценности для коллекционера. Иногда пытаются надуть клиентов. </description>
+			<image_filename> ksn.png </image_filename>
+			<buying_cost> 12000 </buying_cost>
+			<basic_income> 4000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "20">
+			<name> "Охотники за сокровищами" </name>
+			<description> Обожают посиживать в изящных креслах и рассматривать накопленные артефакты, с любовью расположенные по всему помещению. Не забывают патрулировать птичьи рынки, склады и другие подобные места и выкупать у местных торговцев ценные вещи по бросовым ценам. Применяют для этой цели различные полезные и не очень книги. Часть вещиц оставляют себе, а остальные грузят на корабль, причаливший к электронной бухте, и отправляют восвояси. </description>
+			<image_filename> kozs.png </image_filename>
+			<buying_cost> 18000 </buying_cost>
+			<basic_income> 6000 </basic_income>
+			<upgrade_cost> 3000,4500,7000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 4500,7000,10000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "21">
+			<name> "Расхитители гробниц" </name>
+			<description> Изучают исторические сведения о храмах, монастырях, площадях, рынках, стоянках и прочих местах археологической важности, нанимают людей для раскопок и собирают раздобытые артефакты, которые затем продают либо отдают на благотворительность. Особо ценные вещи переходят в руки богатых клиентов. </description>
+			<image_filename> krg.png </image_filename>
+			<buying_cost> 27000 </buying_cost>
+			<basic_income> 9000 </basic_income>
+			<upgrade_cost> 4500,7000,10000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 7000,10000,15000 </upgrade_income>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность активировать две карты бонусов. </bonus>
+
+		</category>
+
+		<category id = "Разработчики">
+		<ownership_token index = "22">
+			<name> "Прядильщик" </name>
+			<description> Обожает клепать разметки страничек на HTML5 с бутстрепом. Любит приговаривать: "В хорошем теле хороший бутстреп". Фанатично размещает дивок по всему экрану, а затем подгоняет их под мобилочки, разукрашивает и анимирует всеми возможными и невозможными способами. Экспериментирует со свойствами jQuery и препроцессорами CSS, с безумным взглядом выкачивает новые либы и творит всякую чертовщину. </description>
+			<image_filename> rp.png </image_filename>
+			<buying_cost> 12000 </buying_cost>
+			<basic_income> 4000 </basic_income>
+			<upgrade_cost> 2000,3000,4500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 3000,4500,7000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "23">
+			<name> "Закодированные кодеры" </name>
+			<description> Любители потыкать клавиши и посмотреть, что с этого получится. Если их всё устраивает, продолжают тыкать до потери пульса, в случае багов обращаются к небожителям за помощью. Поскольку вопросы в основном примитивные, те, в свою очередь, шлют их на гугол. Уставшие обезьянки занимаются просвещением молодого поколения на хабре и других площадках для обмена опытом. </description>
+			<image_filename> rzk.png </image_filename>
+			<buying_cost> 18000 </buying_cost>
+			<basic_income> 6000 </basic_income>
+			<upgrade_cost> 3000,4500,7000 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 4500,7000,10000 </upgrade_income>
+		</ownership_token>
+
+		<ownership_token index = "24">
+			<name> "Творцы-изгои" </name>
+			<description> Достигшие высшего уровня разработчики, которые способны вносить изменения в свойства и методы существующих объектов на планете. Опасность подобных выходок стала причиной появления закрытого общества, которое следит за такими дурачками, высылает их на орбиту и подкармливает, иногда давая некоторые задания, а также проводит охоту на ренегатов. </description>
+			<image_filename> rti.png </image_filename>
+			<buying_cost> 24000 </buying_cost>
+			<basic_income> 8000 </basic_income>
+			<upgrade_cost> 6000,900,13500 </upgrade_cost>
+			<upgrade_level> 0,1,2,3 </upgrade_level>
+			<upgrade_income> 9000,13500,20000 </upgrade_income>>
+		</ownership_token>
+
+		<bonus> 5%(10%) вероятность переместить фигурки игроков на выбранные позиции и активировать их. </bonus>
+
+	</category>
+</content>

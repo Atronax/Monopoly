@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<category id = "positive">
+			// 7 cards here
+			<card index = "0">
+				<type> treasure </type>
+				<name> Клад </name>
+				<description> Игрок немедленно получает некоторое случайное количество золота. </description>
+				<imagePath> pt.png </imagePath>
+			</card>
+
+			<card index = "1">
+				<type> overtime </type>
+				<name> Сверхурочные </name>
+				<description> Удваивает доходы от компаний игрока на один круг. </description>
+				<imagePath> po.png </imagePath>
+			</card>
+
+			<card index = "2">
+				<type> masterchef </type>
+				<name> Мастершеф </name>
+				<description> Позволяет совершить дополнительный ход с шансом удвоить количество шагов. </description>
+				<imagePath> pm.png </imagePath>
+			</card>
+
+			<card index = "3">
+				<type> fast_and_furious </type>
+				<name> Скорость и ярость </name>
+				<description> Перемещает фишку игрока на полкруга вперёд. Игрок получает бонус старта в случае его пересечения. </description>
+				<imagePath> pb.png </imagePath>
+			</card>
+
+			<card index = "4">
+				<type> birthday </type>
+				<name> День рождения </name>
+				<description> Другие игроки дарят подарки текущему. </description>
+				<imagePath> pb.png </imagePath>
+			</card>
+
+			<card index = "5">
+				<type> scientist </type>
+				<name> Научный прорыв </name>
+				<description> Одна из компаний игрока приобретает дополнительную звезду прогресса. </description>
+				<imagePath> ps.png </imagePath>
+			</card>
+
+			<card index = "6">
+				<type> together </type>
+				<name> Рука об руку </name>
+				<description> Перемещает все фишки игроков на одинаковое расстояние. </description>
+				<imagePath> ptg.png </imagePath>
+			</card>
+			
+	</category>			
+			
+	<category id = "negative">
+			// 7 cards here
+			<card index = "7">
+				<type> thief </type>
+				<name> Вор </name>
+				<description> Похищает случайное количество золота у случайного противника. </description>
+				<imagePath> nt.png </imagePath>
+			</card>
+
+			<card index = "8">
+				<type> diversion </type>
+				<name> Диверсия </name>
+				<description> Вынуждает противника совершить ход в обратном направлении. </description>
+				<imagePath> nd.png </imagePath>
+			</card>
+
+			<card index = "9">
+				<type> sabotage </type>
+				<name> Саботаж </name>
+				<description> Шанс обнулить доход компаний противника на один круг. </description>
+				<imagePath> ns.png </imagePath>
+			</card>
+
+			<card index = "10">
+				<type> raid </type>
+				<name> Рейд </name>
+				<description> Шанс присвоить права собственности на одну из компаний противника. </description>
+				<imagePath> nr.png </imagePath>
+			</card>
+
+			<card index = "11">
+				<type> bribe </type>
+				<name> Подкуп </name>
+				<description> Шанс подкупить суд и поместить случайного противника в тюрьму на несколько ходов. </description>
+				<imagePath> nb.png </imagePath>
+			</card>
+
+			<card index = "12">
+				<type> sneak </type>
+				<name> Подкрадывание </name>
+				<description> Немедленно перемещает фишку игрока к случайному противнику. </description>
+				<imagePath> ns.png </imagePath>
+			</card>
+
+			<card index = "13">
+				<type> spy </type>
+				<name> Шпион </name>
+				<description> Шанс похитить данные исследований. В случае успеха одна из компаний развивается до уровня лучшей компании противника. </description>
+				<imagePath> ns.png </imagePath>
+			</card>
+	</category>
+</content>
