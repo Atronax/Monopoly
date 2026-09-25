@@ -567,6 +567,9 @@ Player *Table::createUnit(const QPoint& gridPosition, const QString &name, const
     Node *node = getNodeAt(gridPosition, true);
     Player *unit = nullptr;
 
+    if (node == nullptr)
+        qDebug() << "node pointer links to some trash space";
+
     if (node)
     {
         unit = new Player (gridPosition, name, color, imagePath);
@@ -1181,6 +1184,7 @@ void Table::prepareScene()
 
     m_nodes = new QList<Node*>();
     m_units = new QList<Player*>();
+
     m_currentPlayer = nullptr;
 
     m_ATDescription = new QList<Description*>();
@@ -1190,7 +1194,7 @@ void Table::prepareScene()
     // setMouseTracking(true);
     setFixedWidth(m_scene->width());
     setFixedHeight(m_scene->height() + 26);
-    setMode(Mode::MENU);    
+    setMode(Mode::MENU);
 }
 
 void Table::addGrid()
@@ -1336,6 +1340,8 @@ void Table::addNodes()
 void Table::addUnits()
 {
     Player* p1 = createUnit(QPoint(0,0), "404fac", QColor("#404fac"), "P1");
+    if (p1 == nullptr)
+        qDebug() << "p1 is an empty ptr";
     p1->setShape(Player::Shape::SQUARE);
     p1->hand()->setSide(handAt(Hand::Side::LEFT));
     p1->hand()->receive(64623);
@@ -1376,7 +1382,7 @@ void Table::addDecks()
 
 void Table::addUIItems()
 {
-    QSize szStatus (300,60), szDetails (500,400);
+    QSize szStatus (300,60), szDetails (600,400);
 
     // Status message with the description of current players' turn: his name and left steps.
     m_status = new UIElement ("a");
@@ -2046,7 +2052,7 @@ void Table::fillNodesWithRandomTokens()
     {
         QPoint position = m_nodes->at(i)->gridPosition();
 
-        int r = 1; // rand() % 2;
+        int r = rand() % 2; // 1 - very random number
         if (r == 0)
             makeTokenFromDescription(position, TokenType::OWNERSHIP, rand() % m_OTDescription->count());
         else
@@ -2464,7 +2470,8 @@ void Table::onDefaults()
     clearDecks();
     clearUnits();
 
-    loadFrom("not_round.tm");
+    loadFrom("d:/monopoly/maps/round.tm");
+    // addNodes();
     if (m_units->isEmpty())
         addUnits();
 

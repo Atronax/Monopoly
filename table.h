@@ -29,6 +29,8 @@
 #include "ui/details.h"
 #include "ui/menu.h"
 
+// ! Change constant sizes to percentage of screen space
+
 class Table : public QWidget
 {
     Q_OBJECT
@@ -134,8 +136,8 @@ private:
     // - m_scene and m_view are pointers to the model of the scene and connected visual representation;
     //   since they are nullptr currently, there should be some method to initialize them.
     int basewidth, baseheight, handwidth;
-    const int HANDS_SPACE = 70;
-    const int SCENE_MARGIN = 5;
+    const int HANDS_SPACE = 120;
+    const int SCENE_MARGIN = 15;
     QGraphicsScene *m_scene = nullptr;
     View           *m_view = nullptr;
     QPoint          m_viewMP;
@@ -153,8 +155,8 @@ private:
     void  removeNode (Node* n);
     void  editNode (Node* n);
 
-    const int NODE_WIDTH = 88;
-    const int NODE_HEIGHT = 88;
+    const int NODE_WIDTH = 200;
+    const int NODE_HEIGHT = 200;
     const int NODES_PER_ROW = 8;
     const int NODES_PER_COLUMN = 8;
     QList<Node*> *m_nodes = nullptr;
@@ -212,8 +214,8 @@ private:
     void addCard (Card* c, bool isPositive);
     void removeCard (Card* c, bool isPositive);
 
-    const int CARD_WIDTH = 90;
-    const int CARD_HEIGHT = 135;
+    const int CARD_WIDTH = 110;
+    const int CARD_HEIGHT = 175;
     const float CARD_ANGLE = 21.f;
     Deck* m_cardsP = nullptr;
     Deck* m_cardsN = nullptr;
