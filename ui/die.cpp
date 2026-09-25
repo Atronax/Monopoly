@@ -6,12 +6,35 @@
 Die::Die()
 {
     loadSpritelist(6, QSize(100, 100), "D:/monopoly/die/spritelist.png");
+    setRect(80,80,100,100);
 }
+
+
 
 Die::~Die()
 {
     clear();
 }
+
+QRectF Die::boundingRect() const
+{
+    qDebug() << "Bounding rect of the die: " << rect();
+    return rect();
+}
+
+void Die::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if (m_spritelist)
+    {
+        qDebug() << "there is spritelist";
+        qDebug() << "size: " << m_spritelist->size();
+        if (!m_currentSide.isNull())
+            painter->drawImage(rect(),m_currentSide);
+    }
+    else
+        qDebug() << "no spritelist";
+}
+
 
 void Die::drop()
 {
